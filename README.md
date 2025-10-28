@@ -45,10 +45,12 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
+
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### 3️⃣ Download the LLaMA 2 Model
 Download the **LLaMA 2 7B Chat GGML** model from Hugging Face(requires account acceptance).
@@ -59,10 +61,12 @@ llama-2-7b-chat.ggmlv3.q8_0.bin
 ```
 
 Once downloaded, place it under the `/models` directory:
+
 Example:
 ```bash
 models/llama-2-7b-chat.ggmlv3.q8_0.bin
 ```
+
 
 ### ▶️ Run the App
 Launch Streamlit:
